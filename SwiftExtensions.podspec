@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftExtensions'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftExtensions.'
+  s.summary          = 'Collection of commonly used code snippets in form of swift extensions'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'While writing swift code we come across some situations where we need to add some behaviour to existing classes. Here we are tying to collect most commonly used swift extensions which will boost up the development'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/SwiftExtensions'
+  s.homepage         = 'https://github.com/coderbros/SwiftExtensions'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Akshay Yaduvanshi' => 'akshayy@thoughtworks.com' }
